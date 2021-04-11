@@ -13,9 +13,9 @@
   font-weight: 700;
   margin-bottom: 66px;
   line-height: 1.3; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  @media (max-width: 1560px) {
     .section-tittle h2 {
-      font-size: 45px;
+      font-size: 40px;
       line-height: 1.3; } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .section-tittle h2 {
@@ -32,7 +32,7 @@
     display: block;
     -webkit-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-    padding: 40px 30px;
+    padding: 24px 30px;
     border-radius: 6px; }
     .what-we-do .single-do .do-icon span {
       font-size: 73px;
@@ -43,9 +43,10 @@
       font-size: 24px;
       font-weight: 600;
       margin-bottom: 23px; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      @media (max-width: 1560px) {
         .what-we-do .single-do .do-caption h4 {
-          font-size: 21px; } }
+          font-size: 20px;
+          margin-bottom: 16px; } }
     .what-we-do .single-do .do-caption p {
       margin-bottom: 40px; }
     .what-we-do .single-do .do-btn {
@@ -55,6 +56,9 @@
       font-weight: 500;
       -webkit-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
+    @media (max-width: 767px) {
+      .what-we-do .single-do {
+        padding: 20px; } }
 
 a.single-do:hover {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
@@ -75,7 +79,7 @@ a.single-do:hover {
     min-width: 1006px;
     background-repeat: no-repeat;
     left: -117px; }
-    @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    @media (max-width: 1560px) {
       .we-create-area::before {
         display: none; } }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -123,12 +127,9 @@ a.single-do:hover {
     line-height: 1.3;
     margin-bottom: 29px;
     padding-right: 25px; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    @media (max-width: 1560px) {
       .we-create-area .we-create-cap h3 {
-        font-size: 29px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .we-create-area .we-create-cap h3 {
-        font-size: 42px; } }
+        font-size: 40px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .we-create-area .we-create-cap h3 {
         font-size: 36px;
@@ -158,6 +159,7 @@ a.single-do:hover {
 .visit-area .single-visited {
   display: block;
   border-radius: 10px;
+  cursor: pointer;
   overflow: hidden; }
   .visit-area .single-visited .visited-img {
     position: relative; }
@@ -173,17 +175,19 @@ a.single-do:hover {
     padding: 29px 24px 10px 50px;
     -webkit-transition: background .25s;
     transition: background .25s; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    @media (max-width: 1560px) {
       .visit-area .single-visited .visited-cap {
-        padding: 20px 10px 10px 20px; } }
+        padding: 20px 10px 10px 30px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .visit-area .single-visited .visited-cap {
         padding: 14px 10px 10px 32px; } }
     .visit-area .single-visited .visited-cap h3 {
       font-size: 30PX;
       font-weight: 600;
-      margin-bottom: 8px; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      margin-bottom: 8px;
+      -webkit-transition: color .25s;
+      transition: color .25s; }
+      @media (max-width: 1560px) {
         .visit-area .single-visited .visited-cap h3 {
           font-size: 23px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -197,21 +201,9 @@ a.single-do:hover {
       margin: 0; }
       .visit-area .single-visited .visited-cap p.detail {
         display: none; }
-  .visit-area .single-visited:hover .visited-cap {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background: transparent linear-gradient(144deg, #FF7941 0%, #EC8D47 51%, #FFAD48 90%) 0% 90% no-repeat padding-box;
-    bottom: 0; }
-    .visit-area .single-visited:hover .visited-cap h3, .visit-area .single-visited:hover .visited-cap p {
-      color: #FFF; }
+  @media (min-width: 992px) {
     .visit-area .single-visited:hover .visited-cap h3 {
-      text-align: center;
-      margin: 40px 0 20px; }
-    .visit-area .single-visited:hover .visited-cap p {
-      display: none; }
-      .visit-area .single-visited:hover .visited-cap p.detail {
-        display: block; }
+      color: #FF8D00; } }
 
 .haveAproject {
   background-image: url("../images/contact-high-bg.jpg");
@@ -220,7 +212,7 @@ a.single-do:hover {
   background-repeat: no-repeat;
   border-radius: 10px;
   position: relative; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  @media (max-width: 1560px) {
     .haveAproject {
       padding: 42px 69px 36px 57px; } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -228,7 +220,7 @@ a.single-do:hover {
       padding: 42px 19px 36px 40px; } }
   @media (max-width: 767px) {
     .haveAproject {
-      padding: 42px 19px 36px 40px; } }
+      padding: 30px 24px; } }
   .haveAproject::before {
     position: absolute;
     width: 100%;
@@ -250,8 +242,8 @@ a.single-do:hover {
         margin-bottom: 18px; } }
     @media (max-width: 767px) {
       .haveAproject .wantToWork-caption h2 {
-        margin-bottom: 18px;
-        font-size: 31px; } }
+        margin-bottom: 16px;
+        font-size: 24px; } }
   .haveAproject .wantToWork-caption p {
     color: #fff; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -277,3 +269,57 @@ a.single-do:hover {
   @media (max-width: 767px) {
     .haveAproject .wantToWork-btn {
       float: left; } }
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -20px; }
+
+.slick-dots li {
+  margin: 0 4px; }
+  .slick-dots li.slick-active button {
+    background-color: #FF8D00; }
+  .slick-dots li button {
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    color: transparent !important; }
+    .slick-dots li button::before {
+      width: auto !important;
+      height: auto !important; }
+
+.case-modal .modal-dialog {
+  max-width: 600px; }
+
+.case-modal .modal-content {
+  min-height: 50vh;
+  background: transparent linear-gradient(144deg, #FF7941 0%, #EC8D47 51%, #FFAD48 100%) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 20px 20px; }
+  .case-modal .modal-content h3, .case-modal .modal-content p {
+    color: #FFF; }
+  .case-modal .modal-content p {
+    text-align: left;
+    font-size: 16px; }
+
+.case-modal .close {
+  font-size: 20px;
+  position: absolute;
+  color: #FFF;
+  right: 20px;
+  top: 20px;
+  opacity: 1;
+  -webkit-transition: color .25s;
+  transition: color .25s; }
+  @media (min-width: 992px) {
+    .case-modal .close:hover {
+      color: #2B4B80; } }

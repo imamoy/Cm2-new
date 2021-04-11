@@ -1,0 +1,181 @@
+/*------------------- Responsive --------------------------*/
+.section-tittle span {
+  color: #FF8D00;
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 16px; }
+
+.section-tittle h2 {
+  color: #2B4B80;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 66px;
+  line-height: 1.3; }
+  @media (max-width: 1560px) {
+    .section-tittle h2 {
+      font-size: 40px;
+      line-height: 1.3; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .section-tittle h2 {
+      font-size: 23px;
+      line-height: 1.3; } }
+  @media (max-width: 767px) {
+    .section-tittle h2 {
+      font-size: 23px;
+      line-height: 1.3; } }
+
+.what-we-do {
+  position: relative; }
+  .what-we-do .single-do {
+    display: block;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    padding: 24px 30px;
+    border-radius: 6px; }
+    .what-we-do .single-do .do-icon span {
+      font-size: 73px;
+      margin-bottom: 20px;
+      display: inline-block;
+      color: #FF8D00; }
+    .what-we-do .single-do .do-caption h4 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 23px; }
+      @media (max-width: 1560px) {
+        .what-we-do .single-do .do-caption h4 {
+          font-size: 20px;
+          margin-bottom: 16px; } }
+    .what-we-do .single-do .do-caption p {
+      margin-bottom: 40px; }
+    .what-we-do .single-do .do-btn {
+      color: #FF8D00;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 500;
+      -webkit-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+    @media (max-width: 767px) {
+      .what-we-do .single-do {
+        padding: 20px; } }
+
+a.single-do:hover {
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+          box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1); }
+  a.single-do:hover h4 {
+    color: #FF8D00; }
+  a.single-do:hover .do-btn {
+    color: #2B4B80; }
+
+.haveAproject {
+  background-image: url("../images/contact-high-bg.jpg");
+  background-size: cover;
+  padding: 64px 69px 54px 78px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative; }
+  @media (max-width: 1560px) {
+    .haveAproject {
+      padding: 42px 69px 36px 57px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .haveAproject {
+      padding: 42px 19px 36px 40px; } }
+  @media (max-width: 767px) {
+    .haveAproject {
+      padding: 30px 24px; } }
+  .haveAproject::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    content: "";
+    border-radius: 10px;
+    opacity: 0.95; }
+  .haveAproject .wantToWork-caption h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 13px; }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .haveAproject .wantToWork-caption h2 {
+        padding-right: 20px;
+        margin-bottom: 18px; } }
+    @media (max-width: 767px) {
+      .haveAproject .wantToWork-caption h2 {
+        margin-bottom: 16px;
+        font-size: 24px; } }
+  .haveAproject .wantToWork-caption p {
+    color: #fff; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .haveAproject .wantToWork-caption p {
+        padding-right: 20px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .haveAproject .wantToWork-caption p {
+        padding-right: 20px;
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .haveAproject .wantToWork-caption p {
+        margin-bottom: 30px; } }
+    @media (max-width: 767px) {
+      .haveAproject .wantToWork-caption p {
+        margin-bottom: 30px;
+        font-size: 15px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .haveAproject .wantToWork-btn {
+      float: left; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .haveAproject .wantToWork-btn {
+      float: left; } }
+  @media (max-width: 767px) {
+    .haveAproject .wantToWork-btn {
+      float: left; } }
+
+#solutions .banner-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 40vh;
+  padding: calc(10vh + 100px) 0 13vh;
+  position: relative; }
+  #solutions .banner-area h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #2B4B80;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-bottom: 20px; }
+    @media (max-width: 1560px) {
+      #solutions .banner-area h1 {
+        font-size: 46px;
+        line-height: 1.2; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      #solutions .banner-area h1 {
+        font-size: 46px;
+        line-height: 1.2; } }
+    @media (max-width: 767px) {
+      #solutions .banner-area h1 {
+        font-size: 28px;
+        line-height: 1.4; } }
+  #solutions .banner-area .banner-area-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #CCC;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; }
+
+#solutions .what-we-do .hero-btn {
+  min-width: 24vw; }
