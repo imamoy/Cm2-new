@@ -1291,7 +1291,7 @@ ul.circle-liststyle {
         margin-bottom: 20px; } }
 
 .introduction {
-  background-image: url("../../images/about/city-bg_fill.jpg");
+  background-image: url("../images/about/city-bg_fill.jpg");
   background-position: center; }
   .introduction .text {
     max-width: 1080px;
@@ -1491,13 +1491,13 @@ ul.circle-liststyle {
     text-align: center; } }
 
 .icon-time_G {
-  background-image: url("../../images/about/icon_time.svg"); }
+  background-image: url("../images/about/icon_time.svg"); }
 
 .icon-chart-up_G {
-  background-image: url("../../images/about/icon_chart-up.svg"); }
+  background-image: url("../images/about/icon_chart-up.svg"); }
 
 .icon-certificate_G {
-  background-image: url("../../images/about/icon_certificate.svg"); }
+  background-image: url("../images/about/icon_certificate.svg"); }
 
 .section-tittle span {
   color: #FF8D00;
@@ -1526,10 +1526,10 @@ ul.circle-liststyle {
       line-height: 1.3; } }
 
 .dna i.icon-certificate_G {
-  background-image: url("../../images/dna/icon_about1.png"); }
+  background-image: url("../images/dna/icon_about1.png"); }
 
 .dna i.icon-time_G {
-  background-image: url("../../images/dna/icon_about2.png"); }
+  background-image: url("../images/dna/icon_about2.png"); }
 
 .dna i.icon-chart-up_G {
-  background-image: url("../../images/dna/icon_about3.png"); }
+  background-image: url("../images/dna/icon_about3.png"); }
