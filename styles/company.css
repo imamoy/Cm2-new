@@ -1,11 +1,15 @@
 /*------------------- Responsive --------------------------*/
 main > .inner {
-  margin-top: 90px;
+  margin-top: 80px;
   min-height: 800px; }
 
 @media screen and (max-width: 991px) {
   main > .inner {
-    margin-top: 60px; } }
+    margin-top: 80px; } }
+
+@media screen and (max-width: 767px) {
+  main > .inner {
+    margin-top: 68px; } }
 
 .hidden {
   display: none; }
@@ -45,7 +49,7 @@ img {
 .f-title_l,
 .f-title_ml,
 .f-title_m {
-  font-weight: 700; }
+  font-weight: 600; }
 
 @media screen and (min-width: 1441px) {
   .f-title_big {
@@ -97,11 +101,11 @@ img {
 
 @media screen and (min-width: 992px) {
   .f-title_s {
-    font-size: 36px; } }
+    font-size: 30px; } }
 
 @media screen and (max-width: 991px) {
   .f-title_s {
-    font-size: 32.4px; } }
+    font-size: 26px; } }
 
 @media screen and (min-width: 992px) {
   .f-title_xs {
@@ -396,119 +400,6 @@ ul.circle-liststyle {
 @media screen and (max-width: 767px) {
   .phone-hide {
     display: none; } }
-
-.banner,
-.page-banner,
-.banner .pic,
-.page-banner .pic {
-  position: relative; }
-
-.banner .pic::after,
-.page-banner .pic::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.15); }
-
-.banner .pic img,
-.page-banner .pic img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover; }
-
-.banner .text,
-.page-banner .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  color: #FFF;
-  text-align: center;
-  padding: 0 20px;
-  position: absolute;
-  top: 0;
-  left: 0; }
-  .banner .text h2,
-  .page-banner .text h2 {
-    color: #FFF; }
-
-.banner .sub,
-.page-banner .sub {
-  font-weight: 300; }
-
-.banner {
-  height: calc(100vh - 90px); }
-  .banner .title {
-    margin: 0 0 30px; }
-  .banner .pic {
-    width: 100%;
-    height: 100%; }
-  .banner img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover; }
-  .banner .btn-box .btn {
-    margin: 10px; }
-  .banner .btn-box .btn-border-primary {
-    background-color: rgba(255, 255, 255, 0.8); }
-
-@media screen and (max-width: 991px) {
-  .banner {
-    height: calc(100vh - 60px); } }
-
-@media screen and (min-width: 992px) {
-  .banner .en {
-    font-size: 74.8px; }
-  .banner .btn-box .btn-border-primary:hover {
-    background-color: transparent;
-    border-color: #FFF; } }
-
-.page-banner .pic {
-  height: 26vw;
-  min-height: 300px; }
-
-.page-banner .title {
-  margin: 0; }
-
-.page-banner.after_2Line::before {
-  background-color: #fff; }
-
-.page-banner.after_2Line::after {
-  background-color: #BBBBBB; }
-
-.page-banner.mid .pic {
-  height: 20.8vw; }
-
-.page-banner.mini .pic {
-  height: 16vw;
-  min-height: 180px; }
-
-@media screen and (max-width: 991px) {
-  .page-banner.mini .f-title_l {
-    font-size: 36px; } }
-
-@media screen and (max-width: 767px) {
-  .page-banner.mini .f-title_l {
-    font-size: 30px; }
-  .page-banner.mini .pic {
-    min-height: 120px; } }
 
 .l-half {
   display: -webkit-box;
@@ -1096,18 +987,20 @@ ul.circle-liststyle {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin: 0 auto; }
 
 @media screen and (max-width: 991px) {
   .team-box {
     margin-top: 20px; } }
 
 .team-item {
-  padding: 35px 20px 10px;
+  padding: 35px 40px 0px;
   -webkit-transition: -webkit-box-shadow .35s;
   transition: -webkit-box-shadow .35s;
   transition: box-shadow .35s;
-  transition: box-shadow .35s, -webkit-box-shadow .35s; }
+  transition: box-shadow .35s, -webkit-box-shadow .35s;
+  margin: 20px; }
   .team-item:hover {
     -webkit-box-shadow: 0 0 20px 0 #ccc;
     box-shadow: 0 0 20px 0 #ccc; }

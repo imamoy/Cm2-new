@@ -16,15 +16,18 @@
   @media (max-width: 1560px) {
     .section-tittle h2 {
       font-size: 40px;
-      line-height: 1.3; } }
+      line-height: 1.3;
+      margin-bottom: 40px; } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .section-tittle h2 {
       font-size: 23px;
-      line-height: 1.3; } }
+      line-height: 1.3;
+      margin-bottom: 30px; } }
   @media (max-width: 767px) {
     .section-tittle h2 {
       font-size: 23px;
-      line-height: 1.3; } }
+      line-height: 1.3;
+      margin-bottom: 30px; } }
 
 .what-we-do {
   position: relative; }
@@ -39,6 +42,9 @@
       margin-bottom: 20px;
       display: inline-block;
       color: #FF8D00; }
+    .what-we-do .single-do .do-icon i {
+      font-size: 70px;
+      color: #046ad8; }
     .what-we-do .single-do .do-caption h4 {
       font-size: 24px;
       font-weight: 600;
@@ -162,9 +168,15 @@ a.single-do:hover {
   cursor: pointer;
   overflow: hidden; }
   .visit-area .single-visited .visited-img {
-    position: relative; }
+    position: relative;
+    max-height: 460px; }
     .visit-area .single-visited .visited-img img {
-      width: 100%; }
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      -o-object-position: center;
+         object-position: center; }
   .visit-area .single-visited .visited-cap {
     position: absolute;
     bottom: 0;
@@ -201,7 +213,7 @@ a.single-do:hover {
       margin: 0; }
       .visit-area .single-visited .visited-cap p.detail {
         display: none; }
-  @media (min-width: 992px) {
+  @media (min-width: 1280px) {
     .visit-area .single-visited:hover .visited-cap h3 {
       color: #FF8D00; } }
 
@@ -281,7 +293,8 @@ a.single-do:hover {
     @media (max-width: 767px) {
       #resources .services-area .section-tittle h2 {
         font-size: 39px;
-        line-height: 1.3; } }
+        line-height: 1.3;
+        margin-bottom: 20px; } }
 
 #resources .news-area {
   max-width: 1024px;
