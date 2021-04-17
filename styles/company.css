@@ -1239,16 +1239,6 @@ ul.circle-liststyle {
 
 @media screen and (max-width: 479px) {
   .why-us .l-iconGrid_item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     padding-bottom: 14px;
     margin-bottom: 14px;
     border-bottom: 1px solid #BBBBBB; }
@@ -1260,12 +1250,12 @@ ul.circle-liststyle {
     flex: 0 0 100px;
     margin-bottom: 0; }
     .why-us .l-iconGrid_icon i {
-      width: 100px;
-      height: 100px; }
+      width: auto;
+      height: 130px; }
   .why-us .l-iconGrid_name {
     width: 100%;
-    text-align-last: left;
-    margin-left: 20px; } }
+    text-align-last: center;
+    margin-left: 0; } }
 
 #about p {
   line-height: 1.8; }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*------------------- Responsive --------------------------*/
 /*--
     - Overlay
@@ -230,6 +231,15 @@ hr {
 @media (min-width: 1501px) {
   .container {
     max-width: 1460px !important; } }
+
+.t-white {
+  color: #fff !important; }
+
+.t-primary {
+  color: #FF8D00 !important; }
+
+.t-primary-light {
+  color: #EFA447 !important; }
 
 /* owl-carousel button style */
 .owl-carousel .owl-nav div {
@@ -1906,6 +1916,9 @@ hr {
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0 .5vw; }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .num-area .num-card, .num-area .num-comma {
+        font-size: 6vh; } }
     @media (max-width: 991px) {
       .num-area .num-card, .num-area .num-comma {
         font-size: 8vh;
@@ -1992,6 +2005,9 @@ hr {
   right: 0;
   left: 0;
   z-index: 9; }
+  @media (max-width: 767px) {
+    .header-transparrent {
+      position: fixed; } }
 
 .main-header {
   height: 80px;
@@ -2008,17 +2024,21 @@ hr {
       padding: 14px 0; } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .main-header {
-      height: 68px; }
+      width: 100%;
+      height: 68px;
+      position: fixed; }
       .main-header.sticky-bar {
         padding: 14px 0; } }
   @media (max-width: 767px) {
     .main-header {
-      height: 68px; }
+      width: 100%;
+      height: 68px;
+      position: fixed; }
       .main-header.sticky-bar {
         padding: 14px 0; } }
   @media (max-width: 1560px) {
     .main-header .main-menu {
-      margin-right: 30px; } }
+      margin-right: 0px; } }
   .main-header .main-menu ul li {
     display: inline-block;
     position: relative;
@@ -2026,7 +2046,7 @@ hr {
     .main-header .main-menu ul li a {
       color: #002e5b;
       font-weight: 400;
-      padding: 29px 20px;
+      padding: 29px 14px;
       font-weight: 400;
       display: block;
       font-size: 16px;
@@ -2049,8 +2069,8 @@ hr {
     top: 120%;
     visibility: hidden;
     opacity: 0;
-    -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
-            box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.05);
     padding: 17px 0;
     -webkit-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s; }
@@ -2102,7 +2122,7 @@ hr {
   padding: 10px 19px; }
 
 .header-sticky.sticky-bar.sticky .main-menu ul > li > a {
-  padding: 26px 20px; }
+  padding: 28px ​20px; }
 
 .slicknav_menu .slicknav_icon-bar {
   background-color: #FF8D00 !important; }
@@ -2142,12 +2162,61 @@ hr {
 
 .white .main-header .main-menu ul li a {
   color: #FFF; }
+  .white .main-header .main-menu ul li a i {
+    font-size: 20px;
+    color: #FFF; }
 
 .white .main-header.sticky-bar .logo a {
   background-image: url("../images/logo.svg"); }
 
 .white .main-header.sticky-bar .main-menu ul li a {
   color: #2B4B80; }
+
+.lang-btn {
+  display: inline-block;
+  font-size: 20px;
+  color: #2B4B80;
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer; }
+  .lang-btn:hover {
+    color: #FF8D00; }
+  @media screen and (max-width: 991px) {
+    .lang-btn {
+      right: 65px;
+      top: -37px;
+      position: absolute;
+      font-size: 23px;
+      color: #FF8D00; } }
+
+.lang-nav {
+  display: none;
+  width: 100px;
+  background-color: #fff;
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  -webkit-box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.05);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 10px; }
+  .lang-nav li {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    border: none !important;
+    margin: 10px 0 !important;
+    padding: 0 !important; }
+    .lang-nav li a {
+      color: #2B4B80;
+      padding: 0 !important; }
+      .lang-nav li a:hover {
+        color: #FF8D00; }
+  @media screen and (max-width: 991px) {
+    .lang-nav {
+      top: 51px; } }
 
 .hero-height {
   min-height: 100vh;
@@ -2159,6 +2228,7 @@ hr {
       min-height: 100vh; } }
   @media (max-width: 1280px) {
     .hero-height {
+      min-height: 70vh;
       padding-top: 100px; } }
   @media (min-width: 1200px) and (max-width: 1500px) {
     .hero-height {
@@ -2439,6 +2509,9 @@ hr {
 
 .page-banner.mid .pic {
   height: 22vw; }
+
+.page-banner.mid .text {
+  padding-top: 4vh; }
 
 .page-banner.mini .pic {
   height: 16vw;

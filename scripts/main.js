@@ -68,6 +68,11 @@ $('#solutions').each(function(){
   $('header').addClass('white');
 });
 
+$('.lang-btn').click(function () {
+  $('.lang-nav').slideToggle();
+  $('.member-nav').slideUp();
+});
+
 $("a.anchor").on('click', function (event) {
 
   if (this.hash !== "") {
